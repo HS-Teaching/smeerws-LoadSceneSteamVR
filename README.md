@@ -17,6 +17,9 @@ Oculus Rift S/Rift/Vive
 
 ### Visuals: 
 <img width="500" alt="simple sketch scene switch" src="./Screenshots/sketch-sceneswitch.jpg">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=8Lrd98g4zH0
+" target="_blank"><img src="http://img.youtube.com/vi/8Lrd98g4zH0/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Necessary setup/execution steps: 
 You need Unity, SteamVR Plugin (imported and installed), a Rift/Vive/Rift S.
