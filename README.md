@@ -46,10 +46,8 @@ None
   drag the SteamVR_LoadLevel script onto it. For an unpolished scene switch enter the target scene name to Level Name in the
   Inspector and enalbe Auto Trigger On (when the script is triggered). Next, when the cube is touched, the placeHolder object is
   set active and the scene will be switched. 
-+ Problem: Multible Players in scene after scene switch (in intro scene): The player is implemented as singelton. 
-  Solution 1: Use the Player with the DontDestroyOnLoad: create a player in an intro scene, switch to other secenes (no players in other scenes), and never load this intro
-  scene again. 
-  Solution 2: Create in every single scene a new Player. Disable in the [SteamVR] object the Do not Destroy (uncheck property)
++ Multiple Players in scene after scene switch (in intro scene): The player is implemented as Singleton. Solution 1: Use the Player with  the DontDestroyOnLoad: create a player in an intro scene, switch to other scenes (no players in other scenes), and never load this intro scene again. Solution 2: Create in every single scene a new Player. Disable in the [SteamVR] object the Do not Destroy (uncheck property)
+
   <img width="800" alt="screenshot disable DontDestroyOnLoad Player" src="./Screenshots/DisableDontDestroyOnLoadPlayer.jpg">
 
 Copyright by smeerws
