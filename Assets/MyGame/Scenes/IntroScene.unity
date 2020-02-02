@@ -635,7 +635,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Touch \nthis green cube\nto \nswitch the scene"
+  m_Text: 'Tap
+
+    this green cube
+
+    once to
+
+    switch the scene'
 --- !u!222 &552453419
 CanvasRenderer:
   m_ObjectHideFlags: 0
