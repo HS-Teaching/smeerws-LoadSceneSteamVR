@@ -3,6 +3,7 @@
 ### Project description: 
 This little 3D VR (using SteamVR) project demonstrates a scene switch implemented with c#. 
 Therfore the project contains two scenes, an IntroScene and a MainScene and a Script SwitchScenes.
+In the IntroScene the VR user has to touch a green cube to switch to the MainScene. 
  
 ### Development platform: 
 Windows 10, 
@@ -22,7 +23,9 @@ You need Unity, SteamVR Plugin (imported and installed), a Rift/Vive/Rift S.
 Clone the project, run the project. 
 
 ### Third party material: 
-None
+Informative Tutorials I have used to implement this project: 
+Switch Scene: https://medium.com/@setzeus/steamvr-2-0-tutorial-scene-switch-2b2905591813
+Touch interacton in Intro Scene: Simple Interaction in Interaction_Example Scene located in Assets > SteamVR > InteractionSystem > Samples 
 
 ### Project state: 
 incl. progress in percent
@@ -31,5 +34,11 @@ incl. progress in percent
 
 None
 ### Lessons Learned: 
++ Using the existing Interactable Script from SteamVR to implement touching a cube.
++ Using the existing SteamVR_LoadLevel Script to switch between senes: 
+  Registering Scenes & Triggering A Scene Change, add scenes to build settings, create a placeHodler Object and 
+  drag the SteamVR_LoadLevel script onto it. For an unpolished scene switch enter the target scene name to Level Name in the
+  Inspector and enalbe Auto Trigger On (when the script is triggered). Next, when the cube is touched, the placeHolder object is
+  set active and the scene will be switched. 
 
 Copyright by smeerws
