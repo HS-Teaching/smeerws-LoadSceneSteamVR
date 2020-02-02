@@ -24,8 +24,9 @@ Clone the project, run the project.
 
 ### Third party material: 
 Informative Tutorials I have used to implement this project: 
-Switch Scene: https://medium.com/@setzeus/steamvr-2-0-tutorial-scene-switch-2b2905591813
-Touch interacton in Intro Scene: Simple Interaction in Interaction_Example Scene located in Assets > SteamVR > InteractionSystem > Samples 
++ Switch Scene: https://medium.com/@setzeus/steamvr-2-0-tutorial-scene-switch-2b2905591813
++ Touch interacton in Intro Scene: Simple Interaction in Interaction_Example Scene located in Assets > SteamVR > InteractionSystem > Samples 
++ SteamVR: https://valvesoftware.github.io/steamvr_unity_plugin/articles/Interaction-System.html
 
 ### Project state: 
 incl. progress in percent
