@@ -3,7 +3,8 @@
 ### Project description: 
 This little 3D VR (using SteamVR) project demonstrates a scene switch implemented with c#. 
 Therfore the project contains two scenes, an IntroScene and a MainScene and a Script SwitchScenes.
-In the IntroScene the VR user has to touch a green cube to switch to the MainScene. 
+In the IntroScene the VR user has to touch a green cube to switch to the MainScene. From the MainScene 
+the user has to tap the cube twice to switch back to the IntroScene.
  
 ### Development platform: 
 Windows 10, 
